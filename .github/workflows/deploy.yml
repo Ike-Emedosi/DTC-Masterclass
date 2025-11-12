@@ -17,7 +17,8 @@ jobs:
           mdbook-version: 'latest'
 
       - name: Build static site with mdBook
-        run: mdbook build dtc-masterclass/site --dest-dir ../public
+        working-directory: ./dtc-masterclass/site
+        run: mdbook build . --dest-dir ../../public
 
       - name: Publish to Pages
         uses: peaceiris/actions-gh-pages@v4
