@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DTC Masterclass</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      max-width: 800px;
+      line-height: 1.6;
+    }
+    h1 { margin-bottom: 0.25rem; }
+    h2 { margin-top: 2rem; }
+    ul { padding-left: 1.25rem; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>DTC Masterclass</h1>
+  <p>
+    Welcome to your Shopify DTC Masterclass. This is a simple landing page so the
+    site is live and no longer shows a 404. We can expand this into the full
+    interactive course later.
+  </p>
+
+  <h2>Modules (placeholder)</h2>
+  <ul>
+    <li>Lesson 1 – Platform Fundamentals</li>
+    <li>Lesson 2 – Storefront Performance & UX</li>
+    <li>Lesson 3 – Checkout & Payments</li>
+    <li>Lesson 4 – Growth & Retention</li>
+  </ul>
+
+  <p>
+    More content coming soon.
+  </p>
+</body>
+</html>
